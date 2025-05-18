@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Diamond, Linkedin, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Linkedin, Instagram, Mail, Phone } from 'lucide-react';
 
 const quickLinks = [
   { name: 'Home', href: '#' },
@@ -10,22 +10,17 @@ const quickLinks = [
   { name: 'Contact', href: '#contact' }
 ];
 
-const legalLinks = [
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Terms of Service', href: '#' },
-  { name: 'Cookie Policy', href: '#' }
-];
 
 const socialLinks = [
-  { name: 'LinkedIn', href: '#', icon: Linkedin },
-  { name: 'Twitter', href: '#', icon: Twitter },
+  { name: 'LinkedIn', href: '#https://www.linkedin.com/in/jinx-agency-0557b6366/', icon: Linkedin },
+
   { name: 'Instagram', href: '#', icon: Instagram }
 ];
 
 const contactInfo = [
-  { icon: Mail, text: 'contact@rapidx.ai' },
-  { icon: Phone, text: '+1 (555) 123-4567' },
-  { icon: MapPin, text: 'San Francisco, CA' }
+  { icon: Mail, text: 'thejinxagency@gmail.com' },
+  { icon: Phone, text: '+971562670615' }
+  
 ];
 
 export function Footer() {
@@ -126,7 +121,7 @@ export function Footer() {
         <div className="py-8 border-t border-neon-green/10">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 RapidX.AI. All rights reserved.
+              © 2024 JinxAgency. All rights reserved.
             </div>
             <div className="flex space-x-6">
               {legalLinks.map((link) => (
