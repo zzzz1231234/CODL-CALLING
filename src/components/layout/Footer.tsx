@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Diamond, Linkedin, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Diamond, Instagram, Mail, Phone } from 'lucide-react';
 
 const quickLinks = [
   { name: 'Home', href: '#' },
@@ -17,15 +17,12 @@ const legalLinks = [
 ];
 
 const socialLinks = [
-  { name: 'LinkedIn', href: '#', icon: Linkedin },
-  { name: 'Twitter', href: '#', icon: Twitter },
-  { name: 'Instagram', href: '#', icon: Instagram }
+  { name: 'Instagram', href: 'https://instagram.com/ak4hit', icon: Instagram }
 ];
 
 const contactInfo = [
-  { icon: Mail, text: 'contact@rapidx.ai' },
-  { icon: Phone, text: '+1 (555) 123-4567' },
-  { icon: MapPin, text: 'San Francisco, CA' }
+  { icon: Mail, text: 'akshitvasudev@gmail.com' },
+  { icon: Phone, text: '+971562670615' }
 ];
 
 export function Footer() {
@@ -145,3 +142,4 @@ export function Footer() {
     </footer>
   );
 }
+
